@@ -1,0 +1,65 @@
+Client
+Name
+Address, suberb/postcode parted
+Phone NUmber
+Cridte card details
+Rating
+---temp 4 digit code for rigistration
+status lock untilregistered
+Client GPS location
+Photo
+
+Worker
+NAme
+Licenece NUmber (to be expanded later)
+(key)TFN/ABN(expanded details)
+Qualification
+Date of bith
+Phone NUmber
+email
+---temp 4 digit code
+status lock untilregistered
+Aviliblety Forgin KEy
+Ratting
+GPS location
+Photo
+
+
+Aviliblety(one row for each day)
+Worker ID,[avilible,working(job id),not avilble, free]/per 
+
+
+Type of workers, Type of jobs/tasks
+plumber,[gas, drainage....]
+electrician,[lighting, switches....]
+
+User Register Job
+Type of workers, 
+Type of jobs/tasks
+Description
+Client ID
+Now/Advance booking
+Suberb
+Worker Accepted Job
+TIme Difference bettween worker and client location
+dae-time job schedualed
+actual start time
+actual end time
+actual time taken
+payment id
+checked by client
+
+Payment
+client
+worker
+amount
+status(paid/unpaid)
+
+Match 
+Type of workers with Worker
+
+
+Leager
+payment id
+in payments, client id
+out pyments, woker id
