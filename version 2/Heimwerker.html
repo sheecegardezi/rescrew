@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset= "utf-8">
+
+	<meta name="viewport" content="width=device-width">
+
+    <title> Heinwerker | Welcome </title>
+
+    <!--CSS FILE-->
+
+   <!--<link rel="stylesheet" href="./main.css"></head>-->
+     <link rel="stylesheet" href="./werkerstyle.css"></head>
+
+
+<body>
+
+	<header>
+
+		<div class="container">
+
+			<div id="logo">
+
+				<img src="drawer.png"></img>
+
+
+			</div>
+
+				<h2><a href="Heimwerker.html">ReScrew</a></h2>
+
+				<nav>
+
+					<ul>
+						<li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="contact.html"> CALL </a></li>
+
+					<li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="signin.html"> SIGN IN</a></li>
+					
+					<li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="help.html"> HELP </a></li>
+					<li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a class= "btn" href="becomeone.html"> BECOME RESCUER </a></li>
+
+
+            <li style="margin-left:40px;border-color:#1F62A2;"><a class= "btn_join" href="join_us.html" style="font-weight:400;">JOIN US </a></li>
+
+					</ul>
+        
+					
+</nav>
+
+
+
+</nav>
+
+
+
+
+
+
+		</div>
+
+
+	</header>
+
+	<section id="first_container" style="padding-top:44px;padding-bottom:44px;">
+
+	   	<h1 class = "styleheading1"> Don't worry, </h1>
+	   	<p class="stylepara"> We are here to your rescue </p>
+
+
+	   </section>
+
+	
+
+		<section id="topshowcase">
+
+
+
+
+			<div class="container">
+
+
+
+
+
+			</div>
+
+
+
+
+</section>
+
+<section id="contact_us">
+
+
+
+ 	  <div class="form">
+
+
+<h1 class="stylepara_body"> Call For Rescue </h1>
+
+
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Find Rescuer </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="plumber.html">Plumber</a>
+    <a href="#electrician">Electrician</a>
+    
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+<hr>
+
+
+
+
+  	<h1 class="stylepara_body"> Sign Up For Rescuer </h1>
+
+  <form id="feedback_form">
+  	<div class="form_first">
+  	
+  	<input type="text" placeholder="First Name">
+  	<input type="text" placeholder="Last Name">
+
+  </div>
+
+
+  	<div class="form_second">
+  	
+  	<input type="text" placeholder="Email">
+  	
+
+  </div>
+
+  	<div class="form_third">
+  	
+  	<input type="text" placeholder="Phone">
+
+  </div>
+
+  <div class="form_fourth">
+  	
+  	<input type="text" placeholder="Password">
+
+  </div>
+
+  <div class="form_fifth">
+  	
+  	<input type="text" placeholder="City">
+
+  </div>
+
+  	
+
+  <button type="submit" class="button_sign_up">Sign Up<img src="arrow.png" style="margin-top:-100px;padding-bottom:15px; margin-left:250px;"></button>
+  </form>
+
+  
+         
+        </div>
+
+
+
+  </div>
+  </section>
+
+  <hr style="width:30%; margin-top:50px;border: 2px solid #e2e2e2; margin-bottom:-60px; ">
+
+<section id="worker_info" style="height:1300px !important;">
+
+
+  <h3 class="styleheading1" style=" text-align:center !important; margin-left:340px !important; color: #a70f44 !important;" > Why Chose Us</h3>
+
+
+
+    <div class="box7" style="text-align:center !important;">
+
+      <img  src="activejob.png" style="margin-top:30px;padding-bottom:15px; margin-left:60px;  padding-right:70px !important; width:100px;height:100px;"/>
+
+
+          <h3 class="styleheading1"> Accessability</h3>
+
+
+          <p class="stylepara"> Know about your current jobs. Improves your job tracebility. Set Timer, know the time it took to finish the work </p>
+          <br>
+
+          <!-- <button class="btn" id="check_activejobs_btn" style="margin-left:100px !important; width:80px !important;"> <a href="signin_installer.html">Check</a></button> -->
+
+
+
+        </div>
+
+        <div class="box8" style="text-align:center !important;">
+
+
+          <img  src="newjob.png" style="margin-top:30px;padding-bottom:15px; margin-left:60px; padding-right:70px !important; width:100px;height:100px;"/>
+
+          <h3  class="styleheading1" style="margin-left:-15px !important;"> Infinite Choices </h3>
+
+          <p class="stylepara"  style="text-align:center !important;"> Unlike some other services, there's no limit to the number of quotes you can receive from businesses via ReScrew.
+
+          <br>
+
+           <!--  <button class="btn" id="check_newjob_btn" style="margin-left:100px !important; width:80px !important;"> <a href="sigin_customer.html">Check</a></button> -->
+
+
+
+        
+
+
+        </div>
+
+
+        <div class="box9" style="text-align:center !important;">
+
+
+          <img  src="schedule.png" style="margin-top:30px;padding-bottom:15px; margin-left:50px; padding-right:60px !important; width:100px;height:100px;"/>
+
+          <h3  class="styleheading1" style="padding-left:90px !imporatnt;"> Insurance </h3>
+
+          <p class="stylepara"> ReScrew has public liability insurance of up to $XX million for third party property damage or personal injury claims. Also, Businesses with the 'Verified' badge have had the validity of their public liability insurance and ABN confirmed.</p>
+          <br>
+
+           <!--  <button class="btn" id="check_schedule_btn" style="margin-left:100px !important; width:80px !important;"> <a href="sigin_customer.html">Check</a></button> -->
+
+
+
+        
+
+
+        </div>
+
+
+
+        <div class="box10" style="text-align:center !important;">
+
+
+          <img  src="schedule.png" style="margin-top:30px;padding-bottom:15px; margin-left:50px; padding-right:60px !important; width:100px;height:100px;"/>
+
+          <h3  class="styleheading1" style="margin-left:30px !important;"> Trust </h3>
+
+          <p class="stylepara"> &nbsp;All taskers will have had their identification verified by ReScrew and all will be qualified, registered and insured. Workers with the ReScrew PRO badge have passed a higher level of verification, which includes an interview with an ReScrew community manager and a Federal security check.  In addition to this, "We continuously monitor the customer reviews of each business. By doing so, we are able to quality check our businesses from real experiences, not just licenses and qualifications.</p>
+          <br>
+
+           <!--  <button class="btn" id="check_schedule_btn" style="margin-left:100px !important; width:80px !important;"> <a href="sigin_customer.html">Check</a></button> -->
+
+
+
+        
+
+
+        </div>
+
+        <div class="box11" style="text-align:center !important;">
+
+
+          <img  src="schedule.png" style="margin-top:30px;padding-bottom:15px; margin-left:50px; padding-right:60px !important; width:100px;height:100px;"/>
+
+          <h3  class="styleheading1" style="margin-left:-20px !important;"> Gender Equality </h3>
+
+          <p class="stylepara" style="margin-left:36px !important; padding-right:15px!important; font-weight:400 !important; color:#a70f44 !important;">Don't waste your resources</p>
+
+          <p class="stylepara"> Workplace gender equality is achieved when people are able to access and enjoy the same rewards, resources and opportunities regardless of gender. Australia, along with many countries worldwide, has made significant progress towards gender equality in recent decades, particularly in education, health and female workforce participation. 
+</p>
+
+          <br>
+          
+
+
+          <p class="stylepara" style="color:#fab732 !important;  font-weight:400 !important; padding-top:10px !important; padding-top:50px !important;"> <a href="gender_equality.html" style="text-decoration:none; color:#fab732 !important; ">Learn more about our Gender Equality Policy </a></p>
+
+
+
+           <!--  <button class="btn" id="check_schedule_btn" style="margin-left:100px !important; width:80px !important;"> <a href="sigin_customer.html">Check</a></button> -->
+
+
+
+        </div>
+
+
+
+        <div class="box12" style="text-align:center !important;">
+
+
+          <img  src="schedule.png" style="margin-top:30px;padding-bottom:15px; margin-left:50px; padding-right:60px !important; width:100px;height:100px;"/>
+
+          <h3  class="styleheading1" style="padding-left:90px !imporatnt;"> Eco Friendly </h3>
+
+          <p class="stylepara"> At ReScrew, we are conscious of our industries impact on the environment and believe we are in a position to reduce our impact on the environment, which is why we are a participant in the nationally recognised EcoSmart Electricians program. Moreover, we promote Green Plumbers</p>
+          <br>
+          <br>
+          <p class="stylepara" style="color:#fab732 !important;  font-weight:400 !important; padding-top:10px !important;"> <a href="ecofriendly_policy.html" style="text-decoration:none; color:#fab732 !important; ">Learn more about our Eco Friendly Policy </a></p>
+
+            <!-- <button class="btn" id="check_schedule_btn" style="margin-left:100px !important; width:80px !important;"> <a href="sigin_customer.html">Check</a></button> -->
+
+
+        </div>
+
+
+
+      </div>
+        <hr style="width:30%; margin-top:50px;border: 2px solid #e2e2e2; margin-bottom:-60px; ">
+
+
+
+  </section>
+
+
+    <hr style="width:30%; margin-top:10px;border: 2px solid #e2e2e2; margin-bottom:-60px; ">

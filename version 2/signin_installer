@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset= "utf-8">
+
+	<meta name="viewport" content="width=device-width">
+
+    <title> Heinwerker | Welcome </title>
+
+    <!--CSS FILE-->
+
+   <!--<link rel="stylesheet" href="./main.css"></head>-->
+     <link rel="stylesheet" href="./werkerstyle.css"></head>
+
+
+<body style="background-color:#fafafa;">
+
+	<header>
+
+		<div class="container">
+
+			<div id="logo">
+
+				<img src="drawer.png"></img>
+
+
+			</div>
+
+				<h2><a href="Heimwerker.html">Heimwerker</a></h2>
+
+				<nav>
+
+					<ul>
+						<li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="contact.html"> CALL </a></li>
+
+					<li class= "current"style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="signin.html"> SIGN IN</a></li>
+					
+					<li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="help.html"> HELP </a></li>
+					<li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a class= "btn" href="becomeone.html"> BECOME HEIMWERKER </a></li>
+
+					</ul>
+
+
+					
+</nav>
+
+
+
+
+
+
+		</div>
+
+
+	</header>
+
+
+
+
+	
+
+
+	   <section id="sign_firstshowcase">
+
+
+	   	<div class= "container_sign">
+
+
+
+	   		
+
+
+	   		
+	   		
+
+
+
+
+
+	   	</div>
+
+
+
+
+		
+
+
+
+
+
+		
+
+
+
+
+</section>
