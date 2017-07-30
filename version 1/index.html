@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> ResCrew | Welcome </title>
+    <!--CSS FILE-->
+    <!--<link rel="stylesheet" href="./main.css"></head>-->
+    <link rel="stylesheet" href="./werkerstyle.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <img src="img/drawer.png">
+            </div>
+            <h2><a href="index.html">ReScrew</a></h2>
+            <nav>
+                <ul>
+                    <li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="contact.html"> CALL </a></li>
+                    <li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="signin.html"> SIGN IN</a></li>
+                    <li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a href="help.html"> HELP </a></li>
+                    <li style="display:inline-block;margin-right:12px;border-color:#1F62A2;"><a class="btn" href="signup_rescuer.php"> BECOME RESCUER </a></li>
+                    <li style="margin-left:40px;border-color:#1F62A2;"><a class="btn_join" href="signup_client.html" style="font-weight:400;">Become Client</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="first_container" style="padding-top:44px;padding-bottom:44px;">
+        <h1 class="styleheading1"> Don't worry, </h1>
+        <p class="stylepara"> We are here to your rescue </p>
+    </section>
+
+    <section id="topshowcase">
+        <div class="container">
+        </div>
+    </section>
+
+    <section id="contact_us">
+        <div class="form">
+            <h1 class="stylepara_body"> Call For Rescue </h1>
+            <form action="hire.php" method="POST">
+                <select name='dropdown' onchange="this.form.submit()" value="Find" style="margin-left:5%; height:80%;">
+                        <option value="" disabled selected>Find Rescuer</option>
+                        <option value="electrion">Electrion</option>
+                        <option value="plumber">Plumber</option>
+                        <option value="developer">Developer</option>
+                        <option value="designer">Designer</option>
+                    </select>
+                <noscript><input type="submit" value="Submit"></noscript>
+            </form>
+            <hr>
+
+            <h1 class="stylepara_body"> Sign Up For Rescuer </h1>
+            <form id="feedback_form" action="signup_rescuer.php" method='post'>
+                <div class="form_first">
+                    <input type="text" placeholder="First Name" name="first_name" value="">
+                    <input type="text" placeholder="Last Name" name="last_name" value="">
+                </div>
+                <div class="form_second">
+                    <input type="text" placeholder="Email" name="email" value="">
+                </div>
+
+                <div class="form_third">
+                    <input type="text" placeholder="Phone" name="phone" value="">
+                </div>
+
+                <div class="form_fourth">
+                    <input type="text" placeholder="Password" name="password" value="">
+                </div>
+
+                <button type="submit" class="button_sign_up">Sign Up<img src="arrow.png" style="margin-top:-100px;padding-bottom:15px; margin-left:250px;"></button>
+            </form>
+        </div>
+    </section>
+
+    <section id="showcase2">
+        <div class="container"></div>
+    </section>
+
+</body>
+</html>
